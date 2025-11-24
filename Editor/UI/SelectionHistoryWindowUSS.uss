@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 6px 10%;
+    background-color: #222;
+    flex-shrink: 0;
+}
+
+#clear-button {
+    min-width: 80px;
+    flex-shrink: 0;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+#track-hierarchy-toggle,
+#track-project-toggle {
+    min-width: 140px;
+    flex-shrink: 1;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.history-list {
+    flex-grow: 1;
+    min-height: 0;
+    overflow: scroll;
+    margin-top: 8px;
+    padding-right: 4px;
+    border-top-width: 1px;
+    border-top-color: #444;
+}
+
+.history-item {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 8px;
+    background-color: #3a3a3a;
+}
+
+.history-item-even {
+    background-color: #3a3a3a;
+}
+
+.history-item-odd {
+    background-color: #2f2f2f;
+}
+
+.history-item:hover {
+    background-color: #4a4a4a;
+}
+
+.history-item > Image {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    margin-right: 8px;
+}
+
+.name-container {
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.name-container > Label {
+    white-space: normal;
+}
+
+.search-container {
+    flex-direction: row;
+    align-items: center;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    flex-shrink: 1;
+    display: flex;
+}
+
+.search-label {
+    margin-right: 6px;
+}
+
+#search-field {
+    min-width: 160px;
+    flex-grow: 1;
+}

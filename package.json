@@ -1,0 +1,10 @@
+{
+  "name": "com.timurluedemann.selectionhistorywindow",
+  "version": "1.0.0",
+  "displayName": "Selection History Window",
+  "description": "Tracks and displays recently selected assets and objects",
+  "unity": "6000.0",
+  "author": {
+    "name": "Timur Lüdemann"
+  }
+}

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement class="container">
+        <ui:VisualElement class="header-row">
+            <ui:Toggle name="track-hierarchy-toggle" text="Track Hierarchy" value="true" />
+            <ui:Toggle name="track-project-toggle" text="Track Project" value="true" />
+            <ui:VisualElement class="search-container">
+                <ui:Label text="Filter:" class="search-label" />
+                <ui:TextField name="search-field" />
+            </ui:VisualElement>
+            <ui:Button name="clear-button" text="Clear" />
+        </ui:VisualElement>
+        <ui:ScrollView name="history-container" class="history-list" />
+    </ui:VisualElement>
+</ui:UXML>
